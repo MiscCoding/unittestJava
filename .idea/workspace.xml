@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12d0a9c9-47cf-4986-b5df-b27482c4e3f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="12d0a9c9-47cf-4986-b5df-b27482c4e3f8" name="Default Changelist" comment="Unit test case was added more">
+      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/euclid/euclid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/euclid/EuclidTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/SimpleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/SimpleUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/academy/learnprogramming/algorithm/SimpleUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/academy/learnprogramming/algorithm/SimpleUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/academy/learnprogramming/algorithm/utils/SimpleUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/academy/learnprogramming/algorithm/utils/SimpleUnitTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/SimpleUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
+            <state relative-caret-position="-247">
               <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#384#385#0" expanded="true" />
@@ -52,11 +49,34 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/euclid/euclid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/euclid/EuclidTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
@@ -87,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/SimpleUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/euclid/euclid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/euclid/EuclidTest.java" />
       </list>
     </option>
   </component>
@@ -158,6 +180,15 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="euclid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -173,11 +204,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="euclid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,6 +230,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="academy.learnprogramming.algorithm.euclid" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -206,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleUnitTest">
+  <component name="RunManager" selected="JUnit.EuclidTest">
     <configuration name="All in algorithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -216,6 +257,21 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EuclidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.learnprogramming.algorithm.euclid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="academy.learnprogramming.algorithm.euclid" />
+      <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.algorithm.euclid.EuclidTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,6 +293,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EuclidTest" />
         <item itemvalue="JUnit.SimpleUnitTest" />
         <item itemvalue="JUnit.All in algorithm" />
       </list>
@@ -260,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557676738043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Unit test case was added more">
+      <created>1557677341154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557677341154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -273,12 +337,27 @@
     <history-entry file="SimpleUnitTest - 2019.05.13 at 01h 07m 32s.xml">
       <configuration name="SimpleUnitTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleUnitTest - 2019.05.13 at 01h 08m 25s.xml">
+      <configuration name="SimpleUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EuclidTest - 2019.05.13 at 01h 29m 27s.xml">
+      <configuration name="EuclidTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EuclidTest - 2019.05.13 at 01h 29m 52s.xml">
+      <configuration name="EuclidTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EuclidTest - 2019.05.13 at 01h 30m 43s.xml">
+      <configuration name="EuclidTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EuclidTest - 2019.05.13 at 01h 32m 17s.xml">
+      <configuration name="EuclidTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,7 +366,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -308,7 +387,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit with test" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit with test" />
+    <MESSAGE value="Unit test case was added more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit test case was added more" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -334,7 +414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/SimpleUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
+        <state relative-caret-position="-247">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#384#385#0" expanded="true" />
@@ -347,14 +427,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#833#834#0" expanded="true" />
             <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/euclid/euclid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/euclid/EuclidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
