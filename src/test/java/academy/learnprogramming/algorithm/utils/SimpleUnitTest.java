@@ -24,4 +24,16 @@ public class SimpleUnitTest {
 
         Assert.assertFalse( utils.stringToBoolean("n"));
     }
+
+    @Test
+    public void getFileTypeByCode () {
+        Assert.assertEquals(SimpleUtils.FileType.PDF, utils.getFileTypeByCode(3));
+        Assert.assertEquals(SimpleUtils.FileType.JPEG, utils.getFileTypeByCode(1));
+    }
+
+
+    @Test
+    public void getFileTypeByName() {
+        Assert.assertEquals(SimpleUtils.FileType.TEXT, utils.getFileTypeByName("txt"));
+    }
 }
