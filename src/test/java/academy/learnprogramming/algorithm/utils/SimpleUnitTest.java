@@ -12,28 +12,41 @@ public class SimpleUnitTest {
         utils = new SimpleUtils();
     }
 
+//    @Test
+//    public void stringToBooleanTrueTest(){
+//
+//        Assert.assertTrue( utils.stringToBoolean("y"));
+//
+//    }
+//
+//    @Test
+//    public void stringToBooleanFalseTest(){
+//
+//        Assert.assertFalse( utils.stringToBoolean("n"));
+//    }
+//
+//    @Test
+//    public void getFileTypeByCode () {
+//        Assert.assertEquals(SimpleUtils.FileType.PDF, utils.getFileTypeByCode(3));
+//        Assert.assertEquals(SimpleUtils.FileType.JPEG, utils.getFileTypeByCode(1));
+//    }
+//
+//
+//    @Test
+//    public void getFileTypeByName() {
+//        Assert.assertEquals(SimpleUtils.FileType.TEXT, utils.getFileTypeByName("txt"));
+//    }
+
     @Test
     public void stringToBooleanTrueTest(){
 
-        Assert.assertTrue( utils.stringToBoolean("y"));
-
+        Assert.assertTrue(utils.stringToBoolean("y"));
+        Assert.assertTrue(utils.stringToBoolean("Y"));
     }
 
     @Test
     public void stringToBooleanFalseTest(){
-
-        Assert.assertFalse( utils.stringToBoolean("n"));
-    }
-
-    @Test
-    public void getFileTypeByCode () {
-        Assert.assertEquals(SimpleUtils.FileType.PDF, utils.getFileTypeByCode(3));
-        Assert.assertEquals(SimpleUtils.FileType.JPEG, utils.getFileTypeByCode(1));
-    }
-
-
-    @Test
-    public void getFileTypeByName() {
-        Assert.assertEquals(SimpleUtils.FileType.TEXT, utils.getFileTypeByName("txt"));
+        Assert.assertFalse(utils.stringToBoolean("n"));
+        Assert.assertFalse(utils.stringToBoolean("N"));
     }
 }
