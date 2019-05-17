@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12d0a9c9-47cf-4986-b5df-b27482c4e3f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/bruteforce/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/utils/SimpleUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/academy/learnprogramming/algorithm/euclid/euclid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/academy/learnprogramming/algorithm/utils/SimpleUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/academy/learnprogramming/algorithm/FirstTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/academy/learnprogramming/algorithm/euclid/EuclidTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/academy/learnprogramming/algorithm/utils/SimpleUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/academy/learnprogramming/algorithm/utils/SimpleUnitTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="12d0a9c9-47cf-4986-b5df-b27482c4e3f8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/bruteforce/BruteForce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="351">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -322,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557678910512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Euclid test cases added more">
+      <created>1558026266225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558026266225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -359,7 +355,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -370,7 +365,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/bruteforce/BruteForce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="351">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>
