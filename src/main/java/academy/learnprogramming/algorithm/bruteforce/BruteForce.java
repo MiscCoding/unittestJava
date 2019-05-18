@@ -21,7 +21,7 @@ public class BruteForce {
         Arrays.fill(found, -1);
         int index = 0;
         for(int a = 0; a<= array.length-pattern.length; a++ ){
-            for(int p=0; p<= pattern.length; p++){
+            for(int p=0; p< pattern.length; p++){
                 if(array[a+p] != pattern[p]) break;
                 if(p == pattern.length-1)
                     found[index++] = a;
