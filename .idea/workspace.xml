@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d0a9c9-47cf-4986-b5df-b27482c4e3f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/knp/KnuthMorrisPrattTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/knp/KnuthMorrisPrattTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/knp/KnuthMorrisPrattTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/bruteforce/BruteForceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="741">
               <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,22 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="418">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/knp/KnuthMorrisPrattTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="312">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +99,8 @@
         <option value="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/utils/SimpleUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/bruteforce/BruteForce.java" />
         <option value="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/bruteforce/BruteForceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java" />
         <option value="$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/knp/KnuthMorrisPrattTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java" />
       </list>
     </option>
   </component>
@@ -133,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -256,6 +257,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,38 +422,52 @@
       <option name="project" value="LOCAL" />
       <updated>1558162836965</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Knuth Morris Pratt algorithm table and test case">
+      <created>1558769238429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558769238429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Knuth Morris Pratt algorithm table and test case">
+      <created>1558769534588</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558769534588</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BruteForceTest - 2019.05.18 at 16h 35m 59s.xml">
-      <configuration name="BruteForceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BruteForceTest - 2019.05.18 at 16h 36m 17s.xml">
-      <configuration name="BruteForceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BruteForceTest - 2019.05.18 at 16h 36m 18s.xml">
-      <configuration name="BruteForceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BruteForceTest - 2019.05.18 at 16h 37m 42s.xml">
-      <configuration name="BruteForceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="academy_learnprogramming_algorithm_bruteforce_in_algorithm - 2019.05.18 at 16h 38m 15s.xml">
-      <configuration name="academy.learnprogramming.algorithm.bruteforce in algorithm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="academy_learnprogramming_algorithm_bruteforce_in_algorithm - 2019.05.18 at 16h 40m 42s.xml">
-      <configuration name="academy.learnprogramming.algorithm.bruteforce in algorithm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BruteForceTest - 2019.05.18 at 16h 41m 46s.xml">
-      <configuration name="BruteForceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KnuthMorrisPrattTest - 2019.05.25 at 16h 17m 41s.xml">
-      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="KnuthMorrisPrattTest - 2019.05.25 at 16h 23m 41s.xml">
       <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="KnuthMorrisPrattTest - 2019.05.25 at 16h 24m 04s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.25 at 16h 26m 45s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.29 at 00h 36m 19s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.29 at 00h 38m 59s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.29 at 00h 39m 28s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.29 at 00h 40m 02s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.29 at 00h 40m 27s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.29 at 00h 42m 13s.xml">
+      <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnuthMorrisPrattTest - 2019.05.29 at 00h 45m 55s.xml">
       <configuration name="KnuthMorrisPrattTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -459,7 +475,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2409396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2442953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -468,7 +484,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,7 +509,8 @@
     <MESSAGE value="Euclid test cases added more" />
     <MESSAGE value="Bruteforce has been added more." />
     <MESSAGE value="Bruteforce testcases have been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bruteforce testcases have been added." />
+    <MESSAGE value="Knuth Morris Pratt algorithm table and test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knuth Morris Pratt algorithm table and test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,7 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/bruteforce/BruteForceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="741">
           <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -596,20 +613,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/knp/KnuthMorrisPrattTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="312">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/academy/learnprogramming/algorithm/knp/KnuthMorrisPrattTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/academy/learnprogramming/algorithm/KNP/KnuthMorrisPratt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
