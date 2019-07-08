@@ -1,11 +1,47 @@
 package academy.learnprogramming.algorithm.KNP;
 
 public class KnuthMorrisPratt {
+
+    /**
+     * This method returns the index for the first match of the pattern into the index.
+     * It will return -1 in case it does not match
+     * i
+     * 0 1 2 3 4 5 6 7 8 9 10111213
+     * a b a z a c a b a b a b a c
+     *
+     * a b a b a c
+     * 0 0 1 2 3 0
+     * j
+     * @param array
+     * @param pattern
+     * @return
+     */
+    public int search(char[] array, char[] pattern)
+    {
+        int [] lsp = computeLSPTable(pattern);
+        int j =0 ;
+        for(int i = 0; i<array.length; i++){
+            while(j>0 && array[i] != pattern[j])
+            {
+                j = lsp[j-1];
+            }
+            if (array[i] == pattern[j]){
+                j++;
+                if(j == pattern.length)
+                {
+                    return (i-(j-1));
+                }
+            }
+        }
+        return -1;
+    }
+
     /**
      * This computes the table of the longest suffix and longest prefix in the pattern.
      * @param pattern
      * @return
      */
+
     public int [] computeLSPTable(char [] pattern){
         int [] lsp  = new int[pattern.length];
 
