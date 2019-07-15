@@ -19,11 +19,14 @@ public class RabinKarp {
      */
     public int search(char []  array, char [] pattern)
     {
+        if (array == null || pattern == null)
+            return -1;
+
         int n = array.length;
         int m = pattern.length;
         int lastChar = (n - m);
         long patternHash = calculateHash(pattern, m);
-        long arrayHash = calculateHash(array, n);
+        long arrayHash = calculateHash(array, m);
 
         for(int i=0; i<= lastChar; i++)
         {
